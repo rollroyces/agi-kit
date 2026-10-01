@@ -1,0 +1,7 @@
+{
+  "name":              "fill_enclosed",
+  "version":           "1.0.0",
+  "source_path":       "../../domains/arc/generators/generators/fill_enclosed.py",
+  "parameters_schema": "parameters_schema.json",
+  "standard_spec_version": "1.0.0"
+}

@@ -1,7 +1,0 @@
-{
-  "name":              "fill_enclosed",
-  "version":           "1.0.0",
-  "source_path":       "../../01-task-generator/generators/fill_enclosed.py",
-  "parameters_schema": "parameters_schema.json",
-  "a3s_spec_version":  "1.0.0"
-}

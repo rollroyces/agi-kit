@@ -25,13 +25,13 @@ Apache License
    This project bundles a subset of the public ARC-AGI benchmark
    (https://github.com/fchollet/ARC-AGI), which is licensed under
    Apache License, Version 2.0 by Francois Chollet. The bundled tasks
-   in `07-real-arc-eval/data/arc-agi-1/` retain their original
+   in `domains/arc/real-eval/data/arc-agi-1/` retain their original
    copyright and license; see that directory's README for source
    attribution, integrity hashes, and the bundled archive.
 
-   Generated task families (`01-task-generator/examples/`) and the
-   example task bundles in `a3s/examples/task_family/examples/` are
-   released under CC0-1.0 unless otherwise noted.
+   Generated task families (`domains/arc/generators/examples/`) and the
+   example task bundles in `standard/examples/task_family/examples/`
+   are released under CC0-1.0 unless otherwise noted.
 
    =======================================================================
 

@@ -45,4 +45,4 @@ logs/
 .ruff_cache/
 
 # Bundled ARC-AGI-1 archive (kept the extracted JSONs; drop the redundant zip)
-07-real-arc-eval/data/arc-agi-master.archive
+domains/arc/real-eval/data/arc-agi-master.archive
