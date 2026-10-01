@@ -1,3 +1,5 @@
+[![CI](https://github.com/rollroyces/agi-kit/actions/workflows/ci.yml/badge.svg)](https://github.com/rollroyces/agi-kit/actions/workflows/ci.yml)
+
 # agi-kit
 
 > An **AGI-ready kit**: a benchmark enhancement, an open standard, and a
