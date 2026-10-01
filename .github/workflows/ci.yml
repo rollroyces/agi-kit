@@ -44,3 +44,12 @@ jobs:
 
       - name: Test infra/irt/tests
         run: python -m unittest discover -s infra/irt/tests -p "test_*.py"
+
+      - name: Test domains/math/tests
+        run: python -m unittest discover -s domains/math/tests
+
+      - name: Test domains/math/audit
+        run: python -m unittest discover -s domains/math/audit -p "test_*.py"
+
+      - name: Test domains/math/grading
+        run: python -m unittest discover -s domains/math/grading -p "test_*.py"
