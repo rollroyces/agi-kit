@@ -1,0 +1,32 @@
+{
+  "generator": "arithmetic_word_problems",
+  "parameters": {
+    "max_operand": 50,
+    "min_operand": 2,
+    "operation": "add"
+  },
+  "private_seed": "priv-arithmetic_word_problems-1",
+  "public_seed": "demo-arithmetic_word_problems-1",
+  "task": {
+    "test": [
+      {
+        "input": "If you have 16 books and 55 more are added, how many books do you have in total?",
+        "output": "71"
+      }
+    ],
+    "train": [
+      {
+        "input": "If you have 9 stickers and 98 more are added, how many stickers do you have in total?",
+        "output": "107"
+      },
+      {
+        "input": "If you have 36 apples and 17 more are added, how many apples do you have in total?",
+        "output": "53"
+      },
+      {
+        "input": "If you have 49 apples and 51 more are added, how many apples do you have in total?",
+        "output": "100"
+      }
+    ]
+  }
+}

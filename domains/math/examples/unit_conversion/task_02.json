@@ -1,0 +1,30 @@
+{
+  "generator": "unit_conversion",
+  "parameters": {
+    "family": "mass"
+  },
+  "private_seed": "priv-unit_conversion-2",
+  "public_seed": "demo-unit_conversion-2",
+  "task": {
+    "test": [
+      {
+        "input": "81 kilograms is how many grams?",
+        "output": "81000"
+      }
+    ],
+    "train": [
+      {
+        "input": "6 kilograms is how many grams?",
+        "output": "6000"
+      },
+      {
+        "input": "85 kilograms is how many grams?",
+        "output": "85000"
+      },
+      {
+        "input": "98 kilograms is how many grams?",
+        "output": "98000"
+      }
+    ]
+  }
+}

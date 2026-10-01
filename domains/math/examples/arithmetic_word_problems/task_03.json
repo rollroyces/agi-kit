@@ -1,0 +1,32 @@
+{
+  "generator": "arithmetic_word_problems",
+  "parameters": {
+    "max_operand": 12,
+    "min_operand": 2,
+    "operation": "div"
+  },
+  "private_seed": "priv-arithmetic_word_problems-3",
+  "public_seed": "demo-arithmetic_word_problems-3",
+  "task": {
+    "test": [
+      {
+        "input": "12 books are split equally into 12 groups. How many books are in each group?",
+        "output": "1"
+      }
+    ],
+    "train": [
+      {
+        "input": "71 marbles are split equally into 71 groups. How many marbles are in each group?",
+        "output": "1"
+      },
+      {
+        "input": "5 cookies are split equally into 5 groups. How many cookies are in each group?",
+        "output": "1"
+      },
+      {
+        "input": "41 books are split equally into 41 groups. How many books are in each group?",
+        "output": "1"
+      }
+    ]
+  }
+}

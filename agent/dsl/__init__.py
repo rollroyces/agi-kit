@@ -49,6 +49,11 @@ from .primitives import (
     combine_channels,
     project_luminance,
 )
+from .math_primitives import (
+    parse_number,
+    safe_eval,
+    extract_template,
+)
 from .registry import registry, get, all_names
 from .typechecker import typecheck_program, TypeError_
 
@@ -64,6 +69,8 @@ __all__ = [
     # v2 multi-channel
     "is_multichannel", "make_multichannel", "extract_channel",
     "combine_channels", "project_luminance",
+    # math (non-grid)
+    "parse_number", "safe_eval", "extract_template",
     # Registry + typechecker
     "registry", "get", "all_names", "typecheck_program", "TypeError_",
 ]

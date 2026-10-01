@@ -1,0 +1,30 @@
+{
+  "generator": "unit_conversion",
+  "parameters": {
+    "family": "time"
+  },
+  "private_seed": "priv-unit_conversion-3",
+  "public_seed": "demo-unit_conversion-3",
+  "task": {
+    "test": [
+      {
+        "input": "52 hours is how many minutes?",
+        "output": "3120"
+      }
+    ],
+    "train": [
+      {
+        "input": "97 hours is how many minutes?",
+        "output": "5820"
+      },
+      {
+        "input": "60 minutes is how many hours?",
+        "output": "1"
+      },
+      {
+        "input": "40 hours is how many minutes?",
+        "output": "2400"
+      }
+    ]
+  }
+}

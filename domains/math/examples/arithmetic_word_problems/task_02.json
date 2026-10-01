@@ -1,0 +1,32 @@
+{
+  "generator": "arithmetic_word_problems",
+  "parameters": {
+    "max_operand": 30,
+    "min_operand": 5,
+    "operation": "sub"
+  },
+  "private_seed": "priv-arithmetic_word_problems-2",
+  "public_seed": "demo-arithmetic_word_problems-2",
+  "task": {
+    "test": [
+      {
+        "input": "If you have 5 cookies and you give away 1, how many cookies are left?",
+        "output": "4"
+      }
+    ],
+    "train": [
+      {
+        "input": "If you have 18 stickers and you give away 7, how many stickers are left?",
+        "output": "11"
+      },
+      {
+        "input": "If you have 17 stickers and you give away 6, how many stickers are left?",
+        "output": "11"
+      },
+      {
+        "input": "If you have 24 cookies and you give away 24, how many cookies are left?",
+        "output": "0"
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "generator": "unit_conversion",
+  "parameters": {
+    "family": "length"
+  },
+  "private_seed": "priv-unit_conversion-1",
+  "public_seed": "demo-unit_conversion-1",
+  "task": {
+    "test": [
+      {
+        "input": "38 meters is how many centimeters?",
+        "output": "3800"
+      }
+    ],
+    "train": [
+      {
+        "input": "100 centimeters is how many meters?",
+        "output": "1"
+      },
+      {
+        "input": "100 centimeters is how many meters?",
+        "output": "1"
+      },
+      {
+        "input": "100 centimeters is how many meters?",
+        "output": "1"
+      }
+    ]
+  }
+}

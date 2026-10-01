@@ -1,0 +1,31 @@
+{
+  "generator": "unit_conversion",
+  "parameters": {
+    "max_value": 50,
+    "min_value": 1
+  },
+  "private_seed": "priv-unit_conversion-4",
+  "public_seed": "demo-unit_conversion-4",
+  "task": {
+    "test": [
+      {
+        "input": "44 meters is how many centimeters?",
+        "output": "4400"
+      }
+    ],
+    "train": [
+      {
+        "input": "35 hours is how many minutes?",
+        "output": "2100"
+      },
+      {
+        "input": "21 hours is how many minutes?",
+        "output": "1260"
+      },
+      {
+        "input": "18 hours is how many minutes?",
+        "output": "1080"
+      }
+    ]
+  }
+}

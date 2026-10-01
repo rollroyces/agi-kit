@@ -16,7 +16,7 @@ from __future__ import annotations
 
 from typing import Any, Tuple
 
-from dsl.registry import all_names, get as _get
+from .registry import all_names, get as _get
 
 # Arity table — primitives that take the grid as their first argument are
 # treated as "grid operators" with arity = 1 + len(non-grid args). Pure
@@ -56,6 +56,10 @@ _ARITY: dict[str, int] = {
     "extract_channel": 2,
     "combine_channels": -1,    # variadic: at least one channel
     "project_luminance": 1,
+    # math (non-grid) — text -> value primitives
+    "parse_number": 1,         # (text)
+    "safe_eval": 1,            # (expr)
+    "extract_template": 1,     # (text)
 }
 
 

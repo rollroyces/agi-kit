@@ -3,7 +3,8 @@ from __future__ import annotations
 
 from typing import Callable, Dict, List
 
-from dsl import primitives as _p
+from . import primitives as _p
+from . import math_primitives as _mp
 
 # Order matters for stable iteration; keep it deterministic.
 _ORDER: List[str] = [
@@ -23,6 +24,8 @@ _ORDER: List[str] = [
     # v2 multi-channel
     "make_multichannel", "extract_channel", "combine_channels",
     "project_luminance",
+    # math (non-grid)
+    "parse_number", "safe_eval", "extract_template",
 ]
 
 _REGISTRY: Dict[str, Callable] = {
@@ -54,6 +57,10 @@ _REGISTRY: Dict[str, Callable] = {
     "extract_channel":      _p.extract_channel,
     "combine_channels":     _p.combine_channels,
     "project_luminance":    _p.project_luminance,
+    # math (non-grid)
+    "parse_number":         _mp.parse_number,
+    "safe_eval":            _mp.safe_eval,
+    "extract_template":     _mp.extract_template,
 }
 
 

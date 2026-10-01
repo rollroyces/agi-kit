@@ -26,8 +26,8 @@ from __future__ import annotations
 import copy
 from typing import Any, Callable
 
-from dsl.registry import get as _get
-from dsl.primitives import compose as _compose_primitive
+from .registry import get as _get
+from .primitives import compose as _compose_primitive
 
 
 def _literal_const(value: Any) -> Callable[[Any], Any]:

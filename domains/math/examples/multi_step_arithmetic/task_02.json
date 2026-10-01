@@ -1,0 +1,31 @@
+{
+  "generator": "multi_step_arithmetic",
+  "parameters": {
+    "max_operand": 6,
+    "min_operand": 1
+  },
+  "private_seed": "priv-multi_step_arithmetic-2",
+  "public_seed": "demo-multi_step_arithmetic-2",
+  "task": {
+    "test": [
+      {
+        "input": "Start with 6. subtract 5, then add 1, then add 6. What is the final number?",
+        "output": "8"
+      }
+    ],
+    "train": [
+      {
+        "input": "Start with 3. multiply by 2, then add 6, then add 3. What is the final number?",
+        "output": "15"
+      },
+      {
+        "input": "Start with 5. subtract 5, then multiply by 1, then multiply by 1. What is the final number?",
+        "output": "0"
+      },
+      {
+        "input": "Start with 6. subtract 2, then multiply by 6, then add 4. What is the final number?",
+        "output": "28"
+      }
+    ]
+  }
+}

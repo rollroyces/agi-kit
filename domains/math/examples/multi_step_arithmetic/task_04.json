@@ -1,0 +1,32 @@
+{
+  "generator": "multi_step_arithmetic",
+  "parameters": {
+    "answer_max": 500,
+    "max_operand": 8,
+    "min_operand": 2
+  },
+  "private_seed": "priv-multi_step_arithmetic-4",
+  "public_seed": "demo-multi_step_arithmetic-4",
+  "task": {
+    "test": [
+      {
+        "input": "Start with 2. add 2, then multiply by 8, then add 5. What is the final number?",
+        "output": "37"
+      }
+    ],
+    "train": [
+      {
+        "input": "Start with 7. add 4, then subtract 2, then subtract 4. What is the final number?",
+        "output": "5"
+      },
+      {
+        "input": "Start with 4. multiply by 4, then add 3, then subtract 8. What is the final number?",
+        "output": "11"
+      },
+      {
+        "input": "Start with 4. subtract 2, then add 4, then multiply by 8. What is the final number?",
+        "output": "48"
+      }
+    ]
+  }
+}

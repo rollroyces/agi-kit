@@ -1,0 +1,32 @@
+{
+  "generator": "arithmetic_word_problems",
+  "parameters": {
+    "max_operand": 80,
+    "min_operand": 10,
+    "operation": "add"
+  },
+  "private_seed": "priv-arithmetic_word_problems-4",
+  "public_seed": "demo-arithmetic_word_problems-4",
+  "task": {
+    "test": [
+      {
+        "input": "If you have 49 apples and 51 more are added, how many apples do you have in total?",
+        "output": "100"
+      }
+    ],
+    "train": [
+      {
+        "input": "If you have 29 stickers and 37 more are added, how many stickers do you have in total?",
+        "output": "66"
+      },
+      {
+        "input": "If you have 41 apples and 24 more are added, how many apples do you have in total?",
+        "output": "65"
+      },
+      {
+        "input": "If you have 20 cookies and 25 more are added, how many cookies do you have in total?",
+        "output": "45"
+      }
+    ]
+  }
+}
