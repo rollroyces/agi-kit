@@ -1,9 +1,9 @@
 """A3S §6 — Agent interface: solve(), Memory, ToolBridge.
 
-This module provides a *minimum-viable* stub. A real agent (the future
-PSF-CLAgent MVP) plugs in by subclassing :class:`Agent` and overriding
-:meth:`solve`. The default :meth:`solve` here demonstrates the
-"propose 3 candidates, verify each, return the survivor" pattern that
+This module provides a *minimum-viable* stub. A real agent (the
+CLAgent MVP in `agent/clagent.py`) plugs in by subclassing :class:`Agent`
+and overriding :meth:`solve`. The default :meth:`solve` here demonstrates
+the "propose 3 candidates, verify each, return the survivor" pattern that
 the conformance test exercises.
 
 Usage::

@@ -1,8 +1,9 @@
-"""PSF-CLAgent — closed-loop cognitive agent.
+"""CLAgent — closed-loop cognitive agent (CLAgent module 1–4 + 6 partial).
 
-Implements the A3S ``solve()`` contract from
-``a3s/SPEC.md`` §6 and adds the OBSERVE→HYPOTHESIZE→EXECUTE→VERIFY→COMMIT
-loop on top. Key features:
+Implements the standard ``solve()`` contract from
+``standard/SPEC.md`` §6 and adds the OBSERVE→HYPOTHESIZE→EXECUTE→VERIFY→
+COMMIT loop on top, plus a Phase 2 Reflector (module 5) between VERIFY
+and COMMIT. Key features:
 
 * ``OBSERVE``   extract task features (delegates to ``reasoner.features``).
 * ``HYPOTHESIZE`` propose K candidate programs (default K=20) via
@@ -12,14 +13,17 @@ loop on top. Key features:
 * ``VERIFY``   keep only programs that match every train pair.
 * ``REFLECT``  if zero candidates survive, expand K, retry (LLM-style fallback
   is wired but the stub raises ``NotImplementedError``).
+* ``Reflector`` (Phase 2) score the survivor set and pick the next action
+  (``commit`` / ``refine`` / ``ask_for_help`` / ``fallback``).
 * ``COMMIT``   apply the best survivor to the test input.
 * ``COMPRESS`` store the winning program in procedural memory and trigger
   the lift heuristic.
-* ``Trace``    structured trace per §6.2.
+* ``Trace``    structured trace per §6.2 (now also carries the Reflector's
+  ``reflection`` block).
 * ``Episodic`` v2 — query the :class:`EpisodicMemory` for the top-K most
   similar prior traces and pass their labels as hints to the proposer.
 
-Imports the A3S ``reference/airt.py`` to satisfy conformance
+Imports the standard ``reference/airt.py`` to satisfy conformance
 (``Agent``, ``Answer``, ``InMemoryStore``, ``ToolBridge``) and reuses the
 audit module via :mod:`audit_gate`.
 """

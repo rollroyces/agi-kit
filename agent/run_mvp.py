@@ -1,4 +1,4 @@
-"""Run the PSF-CLAgent MVP on every example task and emit a results log.
+"""Run the CLAgent MVP on every example task and emit a results log.
 
 Two passes:
 
@@ -214,7 +214,7 @@ def _print_table(name: str, summary: Dict[str, Any]) -> None:
 
 
 def _main():
-    parser = argparse.ArgumentParser(description="Run PSF-CLAgent MVP.")
+    parser = argparse.ArgumentParser(description="Run CLAgent MVP.")
     parser.add_argument(
         "--reasoner",
         choices=["template", "llm"],
