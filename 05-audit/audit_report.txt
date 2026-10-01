@@ -1,0 +1,31 @@
+Audit summary across 16 task(s)
+Trivially-solvable tasks: 0 / 16
+
+Per-heuristic accuracy:
+  identity                 0/16   (  0.0%)
+  palette_majority         0/16   (  0.0%)
+  mirror                   0/16   (  0.0%)
+  largest_object           0/16   (  0.0%)
+  background_swap          0/16   (  0.0%)
+  diagonal_replicate       0/16   (  0.0%)
+  single_color_fill        0/16   (  0.0%)
+  palette_invert           0/16   (  0.0%)
+
+Per-task results:
+  task_id                trivial  solvers
+  count_colors/task_01   False    -
+  count_colors/task_02   False    -
+  count_colors/task_03   False    -
+  count_colors/task_04   False    -
+  fill_enclosed/task_01  False    -
+  fill_enclosed/task_02  False    -
+  fill_enclosed/task_03  False    -
+  fill_enclosed/task_04  False    -
+  rotate_largest/task_01 False    -
+  rotate_largest/task_02 False    -
+  rotate_largest/task_03 False    -
+  rotate_largest/task_04 False    -
+  symmetry_complete/task_01 False    -
+  symmetry_complete/task_02 False    -
+  symmetry_complete/task_03 False    -
+  symmetry_complete/task_04 False    -

@@ -1,0 +1,56 @@
+{
+  "schema_version": "0.1.0",
+  "started_at": "2026-09-30T16:14:25.244321+00:00",
+  "finished_at": "2026-09-30T16:14:25.244327+00:00",
+  "n_tasks": 150,
+  "families": [
+    "same_shape_mid_palette",
+    "same_shape_rich_palette",
+    "same_shape_small_palette",
+    "size_change"
+  ],
+  "response_matrix_shape": [
+    6,
+    4
+  ],
+  "theta_per_run": {
+    "agent_run_0": -0.19790776836189747,
+    "agent_run_1": 0.5204744724717485,
+    "agent_run_2": 0.5204744704697918,
+    "agent_run_3": -0.19771272311412424,
+    "agent_run_4": -0.7986361461005345,
+    "agent_run_5": 0.18750874162607545
+  },
+  "a_per_family": {
+    "same_shape_mid_palette": 1.0114778156037865,
+    "same_shape_rich_palette": 2.5837051454492395,
+    "same_shape_small_palette": 2.5845951196345562,
+    "size_change": 1.9685303425130578
+  },
+  "b_per_family": {
+    "same_shape_mid_palette": -1.3032390951205999,
+    "same_shape_rich_palette": -0.32162862078270277,
+    "same_shape_small_palette": -0.321561360088946,
+    "size_change": 1.8090225890045593
+  },
+  "log_likelihood": -7.514322714384042,
+  "n_iters": 17,
+  "converged": true,
+  "model_summary": {
+    "n_solvers": 6,
+    "n_items": 4,
+    "model": "2PL",
+    "log_likelihood": -7.514322714384042,
+    "n_params": 14,
+    "AIC": 43.02864542876809,
+    "BIC": 59.52139905363933,
+    "converged": true,
+    "n_iters": 17,
+    "theta_mean": 0.0057001744985099205,
+    "theta_sd": 0.5084937416868317,
+    "a_mean": 2.0370771058001598,
+    "b_mean": -0.034351621746922356,
+    "b_sd": 1.3131541428841957
+  },
+  "note": "Single-solver fit: rows are synthetic replicates of the agent (5 Bernoulli draws per family, seeded) so that 2PL has enough signal. Per-family a and b are the load-bearing numbers; per-run theta is not separately identifiable from a single real solver."
+}

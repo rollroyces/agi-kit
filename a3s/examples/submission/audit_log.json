@@ -1,0 +1,104 @@
+[
+  {
+    "audit_version": "973e85da7c6d37817e3bdb98c616f58ff4cca7cccf85ae8aea85b836c8dfb51c",
+    "audited_at": "2026-09-30T15:17:31.932419+00:00",
+    "heuristics_run": [
+      "identity",
+      "palette_majority",
+      "mirror",
+      "largest_object",
+      "background_swap",
+      "diagonal_replicate",
+      "single_color_fill",
+      "palette_invert"
+    ],
+    "per_heuristic": {
+      "background_swap": {
+        "hit": false,
+        "rationale": "miss"
+      },
+      "diagonal_replicate": {
+        "hit": false,
+        "rationale": "miss"
+      },
+      "identity": {
+        "hit": false,
+        "rationale": "miss"
+      },
+      "largest_object": {
+        "hit": false,
+        "rationale": "miss"
+      },
+      "mirror": {
+        "hit": false,
+        "rationale": "miss"
+      },
+      "palette_invert": {
+        "hit": false,
+        "rationale": "miss"
+      },
+      "palette_majority": {
+        "hit": false,
+        "rationale": "miss"
+      },
+      "single_color_fill": {
+        "hit": false,
+        "rationale": "miss"
+      }
+    },
+    "task_id": "fill_enclosed",
+    "trivially_solvable": false,
+    "verdict": "pass"
+  },
+  {
+    "audit_version": "973e85da7c6d37817e3bdb98c616f58ff4cca7cccf85ae8aea85b836c8dfb51c",
+    "audited_at": "2026-09-30T15:17:31.949532+00:00",
+    "heuristics_run": [
+      "identity",
+      "palette_majority",
+      "mirror",
+      "largest_object",
+      "background_swap",
+      "diagonal_replicate",
+      "single_color_fill",
+      "palette_invert"
+    ],
+    "per_heuristic": {
+      "background_swap": {
+        "hit": false,
+        "rationale": "miss"
+      },
+      "diagonal_replicate": {
+        "hit": false,
+        "rationale": "miss"
+      },
+      "identity": {
+        "hit": false,
+        "rationale": "miss"
+      },
+      "largest_object": {
+        "hit": false,
+        "rationale": "miss"
+      },
+      "mirror": {
+        "hit": false,
+        "rationale": "miss"
+      },
+      "palette_invert": {
+        "hit": false,
+        "rationale": "miss"
+      },
+      "palette_majority": {
+        "hit": false,
+        "rationale": "miss"
+      },
+      "single_color_fill": {
+        "hit": false,
+        "rationale": "miss"
+      }
+    },
+    "task_id": "fill_enclosed",
+    "trivially_solvable": false,
+    "verdict": "pass"
+  }
+]

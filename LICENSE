@@ -1,0 +1,39 @@
+Apache License
+                           Version 2.0, January 2004
+                        http://www.apache.org/licenses/
+
+   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+
+   Copyright 2026 Royce
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+
+   =======================================================================
+
+   THIRD-PARTY DATA AND NOTICE
+
+   This project bundles a subset of the public ARC-AGI benchmark
+   (https://github.com/fchollet/ARC-AGI), which is licensed under
+   Apache License, Version 2.0 by Francois Chollet. The bundled tasks
+   in `07-real-arc-eval/data/arc-agi-1/` retain their original
+   copyright and license; see that directory's README for source
+   attribution, integrity hashes, and the bundled archive.
+
+   Generated task families (`01-task-generator/examples/`) and the
+   example task bundles in `a3s/examples/task_family/examples/` are
+   released under CC0-1.0 unless otherwise noted.
+
+   =======================================================================
+
+   For the full Apache License 2.0 text see:
+   https://www.apache.org/licenses/LICENSE-2.0.txt

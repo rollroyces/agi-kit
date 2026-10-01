@@ -1,0 +1,8 @@
+{
+  "schema_version": "1.0.0",
+  "public_seeds":   ["demo-pub-1", "demo-pub-2"],
+  "private_seeds":  ["demo-priv-1", "demo-priv-2"],
+  "parameters":     {
+    "fill_enclosed": { "n_shapes": 1 }
+  }
+}

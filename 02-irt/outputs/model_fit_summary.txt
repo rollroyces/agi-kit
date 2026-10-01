@@ -1,0 +1,13 @@
+IRT 2PL fit summary
+========================================
+solvers          : 30
+items            : 50
+converged        : True
+iterations       : 47
+log-likelihood   : -703.5486
+n_parameters     : 130
+AIC              : 1667.10
+BIC              : 2357.82
+theta mean (sd)  : 0.019 (0.746)
+a mean           : 1.956
+b mean (sd)      : -0.046 (0.804)

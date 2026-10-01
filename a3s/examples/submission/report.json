@@ -1,0 +1,84 @@
+{
+  "agent": {
+    "name": "example_agent",
+    "version": "1.0.0"
+  },
+  "brier": 0.1,
+  "compute_cost": {
+    "gpu_hours": 0.0,
+    "usd_per_task": 0.0
+  },
+  "generated_at": "2026-09-30T15:17:31.978248+00:00",
+  "irt": {
+    "model": "2PL",
+    "n_items": 2,
+    "n_solvers": 4,
+    "theta": -0.0332388405341458,
+    "theta_ci95": [
+      -0.7672223637859962,
+      0.7007446827177045
+    ]
+  },
+  "n_tasks": 2,
+  "per_primitive_accuracy": {
+    "color": 1.0,
+    "object": 1.0,
+    "shape": 1.0
+  },
+  "raw_tier_scores": {
+    "tier0": 0.0,
+    "tier1": 0.0,
+    "tier2": 0.0,
+    "tier3": 0.3
+  },
+  "robustness_curve": [
+    {
+      "accuracy": 1.0,
+      "n_distractors": 0
+    },
+    {
+      "accuracy": 0.5,
+      "n_distractors": 2
+    },
+    {
+      "accuracy": 0.0,
+      "n_distractors": 5
+    }
+  ],
+  "sample_efficiency_curve": [
+    {
+      "accuracy": 0.3333333333333333,
+      "n_demos": 1
+    },
+    {
+      "accuracy": 0.6666666666666666,
+      "n_demos": 2
+    },
+    {
+      "accuracy": 1.0,
+      "n_demos": 3
+    },
+    {
+      "accuracy": 1.0,
+      "n_demos": 4
+    },
+    {
+      "accuracy": 1.0,
+      "n_demos": 5
+    },
+    {
+      "accuracy": 1.0,
+      "n_demos": 6
+    },
+    {
+      "accuracy": 1.0,
+      "n_demos": 7
+    },
+    {
+      "accuracy": 1.0,
+      "n_demos": 8
+    }
+  ],
+  "schema_version": "1.0.0",
+  "task_set_score": 0.3
+}

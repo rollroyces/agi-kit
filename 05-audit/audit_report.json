@@ -1,0 +1,276 @@
+{
+  "n_tasks": 16,
+  "n_trivially_solvable": 0,
+  "per_heuristic_accuracy": {
+    "identity": 0.0,
+    "palette_majority": 0.0,
+    "mirror": 0.0,
+    "largest_object": 0.0,
+    "background_swap": 0.0,
+    "diagonal_replicate": 0.0,
+    "single_color_fill": 0.0,
+    "palette_invert": 0.0
+  },
+  "per_heuristic_hits": {
+    "identity": 0,
+    "palette_majority": 0,
+    "mirror": 0,
+    "largest_object": 0,
+    "background_swap": 0,
+    "diagonal_replicate": 0,
+    "single_color_fill": 0,
+    "palette_invert": 0
+  },
+  "per_heuristic_total": {
+    "identity": 16,
+    "palette_majority": 16,
+    "mirror": 16,
+    "largest_object": 16,
+    "background_swap": 16,
+    "diagonal_replicate": 16,
+    "single_color_fill": 16,
+    "palette_invert": 16
+  },
+  "results": [
+    {
+      "task_id": "count_colors/task_01",
+      "trivially_solvable": false,
+      "solvers_hit": [],
+      "per_heuristic": {
+        "identity": false,
+        "palette_majority": false,
+        "mirror": false,
+        "largest_object": false,
+        "background_swap": false,
+        "diagonal_replicate": false,
+        "single_color_fill": false,
+        "palette_invert": false
+      }
+    },
+    {
+      "task_id": "count_colors/task_02",
+      "trivially_solvable": false,
+      "solvers_hit": [],
+      "per_heuristic": {
+        "identity": false,
+        "palette_majority": false,
+        "mirror": false,
+        "largest_object": false,
+        "background_swap": false,
+        "diagonal_replicate": false,
+        "single_color_fill": false,
+        "palette_invert": false
+      }
+    },
+    {
+      "task_id": "count_colors/task_03",
+      "trivially_solvable": false,
+      "solvers_hit": [],
+      "per_heuristic": {
+        "identity": false,
+        "palette_majority": false,
+        "mirror": false,
+        "largest_object": false,
+        "background_swap": false,
+        "diagonal_replicate": false,
+        "single_color_fill": false,
+        "palette_invert": false
+      }
+    },
+    {
+      "task_id": "count_colors/task_04",
+      "trivially_solvable": false,
+      "solvers_hit": [],
+      "per_heuristic": {
+        "identity": false,
+        "palette_majority": false,
+        "mirror": false,
+        "largest_object": false,
+        "background_swap": false,
+        "diagonal_replicate": false,
+        "single_color_fill": false,
+        "palette_invert": false
+      }
+    },
+    {
+      "task_id": "fill_enclosed/task_01",
+      "trivially_solvable": false,
+      "solvers_hit": [],
+      "per_heuristic": {
+        "identity": false,
+        "palette_majority": false,
+        "mirror": false,
+        "largest_object": false,
+        "background_swap": false,
+        "diagonal_replicate": false,
+        "single_color_fill": false,
+        "palette_invert": false
+      }
+    },
+    {
+      "task_id": "fill_enclosed/task_02",
+      "trivially_solvable": false,
+      "solvers_hit": [],
+      "per_heuristic": {
+        "identity": false,
+        "palette_majority": false,
+        "mirror": false,
+        "largest_object": false,
+        "background_swap": false,
+        "diagonal_replicate": false,
+        "single_color_fill": false,
+        "palette_invert": false
+      }
+    },
+    {
+      "task_id": "fill_enclosed/task_03",
+      "trivially_solvable": false,
+      "solvers_hit": [],
+      "per_heuristic": {
+        "identity": false,
+        "palette_majority": false,
+        "mirror": false,
+        "largest_object": false,
+        "background_swap": false,
+        "diagonal_replicate": false,
+        "single_color_fill": false,
+        "palette_invert": false
+      }
+    },
+    {
+      "task_id": "fill_enclosed/task_04",
+      "trivially_solvable": false,
+      "solvers_hit": [],
+      "per_heuristic": {
+        "identity": false,
+        "palette_majority": false,
+        "mirror": false,
+        "largest_object": false,
+        "background_swap": false,
+        "diagonal_replicate": false,
+        "single_color_fill": false,
+        "palette_invert": false
+      }
+    },
+    {
+      "task_id": "rotate_largest/task_01",
+      "trivially_solvable": false,
+      "solvers_hit": [],
+      "per_heuristic": {
+        "identity": false,
+        "palette_majority": false,
+        "mirror": false,
+        "largest_object": false,
+        "background_swap": false,
+        "diagonal_replicate": false,
+        "single_color_fill": false,
+        "palette_invert": false
+      }
+    },
+    {
+      "task_id": "rotate_largest/task_02",
+      "trivially_solvable": false,
+      "solvers_hit": [],
+      "per_heuristic": {
+        "identity": false,
+        "palette_majority": false,
+        "mirror": false,
+        "largest_object": false,
+        "background_swap": false,
+        "diagonal_replicate": false,
+        "single_color_fill": false,
+        "palette_invert": false
+      }
+    },
+    {
+      "task_id": "rotate_largest/task_03",
+      "trivially_solvable": false,
+      "solvers_hit": [],
+      "per_heuristic": {
+        "identity": false,
+        "palette_majority": false,
+        "mirror": false,
+        "largest_object": false,
+        "background_swap": false,
+        "diagonal_replicate": false,
+        "single_color_fill": false,
+        "palette_invert": false
+      }
+    },
+    {
+      "task_id": "rotate_largest/task_04",
+      "trivially_solvable": false,
+      "solvers_hit": [],
+      "per_heuristic": {
+        "identity": false,
+        "palette_majority": false,
+        "mirror": false,
+        "largest_object": false,
+        "background_swap": false,
+        "diagonal_replicate": false,
+        "single_color_fill": false,
+        "palette_invert": false
+      }
+    },
+    {
+      "task_id": "symmetry_complete/task_01",
+      "trivially_solvable": false,
+      "solvers_hit": [],
+      "per_heuristic": {
+        "identity": false,
+        "palette_majority": false,
+        "mirror": false,
+        "largest_object": false,
+        "background_swap": false,
+        "diagonal_replicate": false,
+        "single_color_fill": false,
+        "palette_invert": false
+      }
+    },
+    {
+      "task_id": "symmetry_complete/task_02",
+      "trivially_solvable": false,
+      "solvers_hit": [],
+      "per_heuristic": {
+        "identity": false,
+        "palette_majority": false,
+        "mirror": false,
+        "largest_object": false,
+        "background_swap": false,
+        "diagonal_replicate": false,
+        "single_color_fill": false,
+        "palette_invert": false
+      }
+    },
+    {
+      "task_id": "symmetry_complete/task_03",
+      "trivially_solvable": false,
+      "solvers_hit": [],
+      "per_heuristic": {
+        "identity": false,
+        "palette_majority": false,
+        "mirror": false,
+        "largest_object": false,
+        "background_swap": false,
+        "diagonal_replicate": false,
+        "single_color_fill": false,
+        "palette_invert": false
+      }
+    },
+    {
+      "task_id": "symmetry_complete/task_04",
+      "trivially_solvable": false,
+      "solvers_hit": [],
+      "per_heuristic": {
+        "identity": false,
+        "palette_majority": false,
+        "mirror": false,
+        "largest_object": false,
+        "background_swap": false,
+        "diagonal_replicate": false,
+        "single_color_fill": false,
+        "palette_invert": false
+      }
+    }
+  ]
+}
