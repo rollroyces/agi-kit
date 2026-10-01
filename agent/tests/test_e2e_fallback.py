@@ -155,7 +155,7 @@ class TestMockLLMEndToEnd(unittest.TestCase):
         # pattern. Use a known-good DSL program: the count_markers_bottom
         # template body, expressed as AST.
         # The mock returns the AST, which gets compiled by the interpreter.
-        from dsl.primitives import make_grid, shape
+        from agent.dsl.primitives import make_grid, shape
         # The agent compiles ("make_grid", ("shape", ("identity",)), 8) into
         # a callable: lambda g: make_grid(*shape(g), 8). That fills the whole
         # grid with 8s, which is not the right output either. Use a richer
@@ -202,7 +202,7 @@ class TestMockLLMEndToEnd(unittest.TestCase):
         # via the interpreter by using the closure-friendly compose chain.
         # The simplest correct program: replace input with bottom-row-only
         # zeros + two 8s in the bottom-left.
-        from dsl.primitives import make_grid, shape
+        from agent.dsl.primitives import make_grid, shape
         gold_program_str = (
             '("make_grid", ("shape", ("identity",)), 0)'  # placeholder, will be filtered
         )

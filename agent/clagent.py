@@ -419,7 +419,7 @@ class CLAgent(Agent):
         # Re-propose with k_initial * 2 and also include some composites.
         proposer = TemplateProposer()
         big = proposer.propose(task, k=self.config.k_initial * 2, hints=hints)
-        from dsl.primitives import (
+        from .dsl.primitives import (
             identity, flip_h, flip_v, rotate, recolor, background_color as bg
         )
 
